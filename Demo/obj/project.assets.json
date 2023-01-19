@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\23635\\source\\repos\\Demo\\Demo.csproj",
+      "projectUniqueName": "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\Demo\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "C:\\Users\\23635\\source\\repos\\Demo\\Demo.csproj",
+      "projectPath": "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\Demo\\Demo.csproj",
       "packagesPath": "C:\\Users\\23635\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\23635\\source\\repos\\Demo\\obj\\",
+      "outputPath": "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\Demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\23635\\AppData\\Roaming\\NuGet\\NuGet.Config",
