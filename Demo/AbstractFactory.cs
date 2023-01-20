@@ -8,8 +8,11 @@ using System.Xml.Serialization;
 
 namespace Demo
 {
-    class App
+    partial class App
     {
+        /// <summary>
+        /// Abstract Factory 解决  系列对象   的需求变化
+        /// </summary>
         public static void Main()
         {
             GameManager g = new GameManager(new ModernFacilitiesFactory());
@@ -19,7 +22,7 @@ namespace Demo
     }
 
 
-    class GameManager
+    partial class GameManager
     {
         FacilitiesFactory facilitiesFactory;
         /// <summary>

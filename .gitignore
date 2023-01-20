@@ -3,3 +3,7 @@
 ################################################################################
 
 /Design/Design.sln
+/Demo/obj/Debug/net6.0/CreateDesignDemo.AssemblyInfo.cs
+/Demo/obj/Debug/net6.0/CreateDesignDemo.GlobalUsings.g.cs
+*.cache
+/Design/Design.csproj

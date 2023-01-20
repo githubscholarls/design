@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\Demo\\Demo.csproj": {}
+    "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\ActionDesignDemo\\ActionDesignDemo.csproj": {}
   },
   "projects": {
-    "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\Demo\\Demo.csproj": {
+    "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\ActionDesignDemo\\ActionDesignDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\Demo\\Demo.csproj",
-        "projectName": "Demo",
-        "projectPath": "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\Demo\\Demo.csproj",
+        "projectUniqueName": "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\ActionDesignDemo\\ActionDesignDemo.csproj",
+        "projectName": "ActionDesignDemo",
+        "projectPath": "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\ActionDesignDemo\\ActionDesignDemo.csproj",
         "packagesPath": "C:\\Users\\23635\\.nuget\\packages\\",
-        "outputPath": "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\Demo\\obj\\",
+        "outputPath": "C:\\lishuai\\api\\source\\visual Studio\\Design\\design\\ActionDesignDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\23635\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "System.Configuration.ConfigurationManager": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -1,4 +1,4 @@
-﻿namespace Demo
+﻿namespace CreateDesignDemo
 {
     public class Singleton
     {
@@ -37,7 +37,7 @@
         /// </summary>
         static Singleton1()
         {
-            Instance= new Singleton1();
+            Instance = new Singleton1();
         }
         private Singleton1() { }
     }
