@@ -1,0 +1,12 @@
+C:\lishuai\api\source\visual Studio\Design\design\Demo\bin\Debug\net6.0\CreateDesignDemo.deps.json
+C:\lishuai\api\source\visual Studio\Design\design\Demo\bin\Debug\net6.0\CreateDesignDemo.dll
+C:\lishuai\api\source\visual Studio\Design\design\Demo\bin\Debug\net6.0\CreateDesignDemo.pdb
+C:\lishuai\api\source\visual Studio\Design\design\Demo\obj\Debug\net6.0\CreateDesignDemo.csproj.AssemblyReference.cache
+C:\lishuai\api\source\visual Studio\Design\design\Demo\obj\Debug\net6.0\CreateDesignDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\lishuai\api\source\visual Studio\Design\design\Demo\obj\Debug\net6.0\CreateDesignDemo.AssemblyInfoInputs.cache
+C:\lishuai\api\source\visual Studio\Design\design\Demo\obj\Debug\net6.0\CreateDesignDemo.AssemblyInfo.cs
+C:\lishuai\api\source\visual Studio\Design\design\Demo\obj\Debug\net6.0\CreateDesignDemo.csproj.CoreCompileInputs.cache
+C:\lishuai\api\source\visual Studio\Design\design\Demo\obj\Debug\net6.0\CreateDesignDemo.dll
+C:\lishuai\api\source\visual Studio\Design\design\Demo\obj\Debug\net6.0\refint\CreateDesignDemo.dll
+C:\lishuai\api\source\visual Studio\Design\design\Demo\obj\Debug\net6.0\CreateDesignDemo.pdb
+C:\lishuai\api\source\visual Studio\Design\design\Demo\obj\Debug\net6.0\ref\CreateDesignDemo.dll

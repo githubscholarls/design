@@ -7,3 +7,9 @@
 /Demo/obj/Debug/net6.0/CreateDesignDemo.GlobalUsings.g.cs
 *.cache
 /Design/Design.csproj
+/Demo/bin/Debug/net6.0
+/ActionDesignDemo/bin/Debug/net6.0
+/Design/bin/Debug/net6.0
+/Linq/bin/Debug/net6.0
+/Linq/obj
+/StructDesignDemo/bin/Debug/net6.0
