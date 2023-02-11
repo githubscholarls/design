@@ -13,3 +13,4 @@
 /Linq/bin/Debug/net6.0
 /Linq/obj
 /StructDesignDemo/bin/Debug/net6.0
+*.vsidx
