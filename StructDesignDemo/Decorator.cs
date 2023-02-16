@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace StructDesignDemo.Decorator
 {
     //坦克游戏问题：不同坦克添加不同功能，若每一个不同型号坦克继承不同功能类，子类付子类，子类何其多（编译时便确定了类功能）最好动态设置功能
-    
+    //并非解决多子类衍生的多继承问题，应用的要点在于解决“主体类在多个方向上的扩展功能”-是为“装饰”的含义
 
     public abstract class Tank
     {
