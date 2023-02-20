@@ -12,7 +12,7 @@ namespace ActionDesignDemo
     /// </summary>
     internal class Command
     {
-        public static void Main()
+        public void Main()
         {
             //1.0
             var doc = new Document();

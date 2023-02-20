@@ -10,3 +10,6 @@ C:\lishuai\api\source\visual Studio\Design\design\ActionDesignDemo\obj\Debug\net
 C:\lishuai\api\source\visual Studio\Design\design\ActionDesignDemo\obj\Debug\net6.0\refint\ActionDesignDemo.dll
 C:\lishuai\api\source\visual Studio\Design\design\ActionDesignDemo\obj\Debug\net6.0\ActionDesignDemo.pdb
 C:\lishuai\api\source\visual Studio\Design\design\ActionDesignDemo\obj\Debug\net6.0\ref\ActionDesignDemo.dll
+C:\lishuai\api\source\visual Studio\Design\design\ActionDesignDemo\bin\Debug\net6.0\ActionDesignDemo.exe
+C:\lishuai\api\source\visual Studio\Design\design\ActionDesignDemo\bin\Debug\net6.0\ActionDesignDemo.runtimeconfig.json
+C:\lishuai\api\source\visual Studio\Design\design\ActionDesignDemo\obj\Debug\net6.0\ActionDesignDemo.genruntimeconfig.cache

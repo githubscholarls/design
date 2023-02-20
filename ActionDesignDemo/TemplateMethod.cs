@@ -12,7 +12,7 @@ namespace ActionDesignDemo
     /// </summary>
     internal class TemplateMethod
     {
-        public static void Main()
+        public void Main()
         {
             VehicalTestFramework.DoTest(new HongqiCar());
         }
