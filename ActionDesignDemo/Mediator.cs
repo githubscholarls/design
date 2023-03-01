@@ -49,6 +49,8 @@ namespace ActionDesignDemo
     {
         public static void Main()
         {
+
+            ///由我统一管理
             var mediator = new ConocreteMediator();
             var CutMenuItem1 = new CutMenuItem1(mediator);
             var TextArea1 = new CutMenuItem1(mediator);
@@ -56,7 +58,6 @@ namespace ActionDesignDemo
             var ToolBarButton1 = new CutMenuItem1(mediator);
 
             CutMenuItem1.Click();
-            CutMenuItem1.OnChange();
 
         }
     }
@@ -115,11 +116,12 @@ namespace ActionDesignDemo
         public void Click()
         {
             cutText = "获取了文本";
+            this.OnChange(cutText);
         }
         public override void OnChange(object message)
         {
             //剪切的文本内容
-            mediator.Modify(this, cutText);
+            mediator.Modify(this, message);
         }
     }
     class TextArea1:Element
