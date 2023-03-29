@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace ActionDesignDemo
+namespace ActionDesignDemo.Mediator
 {
     /// <summary>
     /// 解耦系统内各个对象之间的关联关系（mediator随着越来越庞大，单个对象可能通知莫一部分对象，大量ifelse随着而来）
@@ -47,7 +47,7 @@ namespace ActionDesignDemo
 
     public class Client
     {
-        public static void Main()
+        public void Main()
         {
 
             ///由我统一管理

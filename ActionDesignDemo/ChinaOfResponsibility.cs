@@ -93,7 +93,7 @@ namespace ActionDesignDemo.ChinaOfResponsibility
 
     public class App
     {
-        public static void Main()
+        public void Main()
         {
             Sender1 sender1 = new Sender1();
 

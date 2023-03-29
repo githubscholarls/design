@@ -7,11 +7,11 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ActionDesignDemo
+namespace ActionDesignDemo.Interpreter
 {
     internal class Interpreter
     {
-        public static void Main()
+        public void Main()
         {
             string roman = "五十一万八千六百五十二";
             Context context = new Context(roman);
