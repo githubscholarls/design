@@ -9,18 +9,20 @@ using System.Threading.Tasks;
 
 namespace ActionDesignDemo.Interpreter
 {
-    internal class Interpreter
+    public class Interpreter
     {
         public void Main()
         {
             string roman = "五十一万八千六百五十二";
             Context context = new Context(roman);
-            ArrayList tree = new ArrayList();
-            tree.Add(new GePression());
-            tree.Add(new ShiPression());
-            tree.Add(new BaiPression());
-            tree.Add(new QianPression());
-            tree.Add(new WanPression());
+            ArrayList tree = new ArrayList
+            {
+                new GePression(),
+                new ShiPression(),
+                new BaiPression(),
+                new QianPression(),
+                new WanPression()
+            };
             foreach (Expression exp in tree)
             {
                 exp.Interpreter(context);

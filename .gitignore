@@ -2,14 +2,14 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/Design/Design.sln
-/Demo/obj/Debug/net6.0/CreateDesignDemo.AssemblyInfo.cs
-/Demo/obj/Debug/net6.0/CreateDesignDemo.GlobalUsings.g.cs
+/Demo/obj/*
 *.cache
 /Design/Design.csproj
 /Demo/bin/Debug/net6.0
 /ActionDesignDemo/bin/Debug/net6.0
+/ActionDesignDemo/obj/*
 /Design/bin/Debug/net6.0
+/Design/obj/*
 /Linq/bin/Debug/net6.0
 /Linq/obj
 /StructDesignDemo/bin/Debug/net6.0
