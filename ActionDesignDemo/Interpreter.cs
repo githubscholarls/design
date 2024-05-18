@@ -146,21 +146,18 @@ namespace ActionDesignDemo.Interpreter
             tree.Add(new ShiPression());
             tree.Add(new BaiPression());
             tree.Add(new QianPression());
-            foreach (var key in table.Keys)
+            if (context.statement.EndsWith(this.GetPostfix()))
             {
-                if (context.statement.EndsWith(this.GetPostfix()))
+                //8652
+                int temp = context.data;
+                context.data = 0;
+                //五十一
+                context.statement = context.statement.Substring(0, context.statement.Length - 1);
+                foreach (Expression exp in tree)
                 {
-                    //8652
-                    int temp = context.data;
-                    context.data = 0;
-                    //五十一
-                    context.statement = context.statement.Substring(0, context.statement.Length - 1);
-                    foreach (Expression exp in tree)
-                    {
-                        exp.Interpreter(context);
-                    }
-                    context.data = temp + this.Multiplier() * context.data;
+                    exp.Interpreter(context);
                 }
+                context.data = temp + this.Multiplier() * context.data;
             }
         }
     }

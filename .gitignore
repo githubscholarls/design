@@ -13,9 +13,6 @@
 /Linq/bin/Debug/net6.0
 /Linq/obj
 /StructDesignDemo/bin/Debug/net6.0
+/StructDesignDemo/obj/*
 *.vsidx
-/Design/.vs/Design/v17/.suo
-/Design/.vs/Design/v17/.futdcache.v2
-/Design/.vs/ProjectEvaluation/design.metadata.v5.2
-/Design/.vs/ProjectEvaluation/design.projects.v5.2
-/Design/.vs/Design/DesignTimeBuild/.dtbcache.v2
+/Design/.vs/*
