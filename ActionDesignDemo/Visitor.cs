@@ -12,6 +12,7 @@ namespace ActionDesignDemo
     /// </summary>
     public class Visitor
     {
+        //不同省份的人
         ShapeVisitor visitor;
         public Visitor(ShapeVisitor visitor)
         {
@@ -19,7 +20,9 @@ namespace ActionDesignDemo
         }
         public void Process()
         {
+            //相当于不同的食物    
             Shape shape = new Rectanglee();
+            //不同省份的人  制作同一食物的方式 不同    食物接受不同省份人访问    你接收我，我接收你
             shape.Accept(visitor);
         }
     }
@@ -49,7 +52,7 @@ namespace ActionDesignDemo
     {
         public override void Visit(Rectanglee rectanglee)
         {
-            Console.WriteLine("Rectanglee 2");
+			Console.WriteLine("Rectanglee 2");
         }
         public override void Visit(Circlee circlee)
         {
