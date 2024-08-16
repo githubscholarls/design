@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructDesignDemo", "..\Stru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActionDesignDemo", "..\ActionDesignDemo\ActionDesignDemo.csproj", "{C0CD7D27-2D49-48CF-9C7A-BF1B29C9104C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWDesign", "..\CWDesign\CWDesign.csproj", "{EC8B06F3-955C-48F0-AEEE-F57059DAC8E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C0CD7D27-2D49-48CF-9C7A-BF1B29C9104C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0CD7D27-2D49-48CF-9C7A-BF1B29C9104C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0CD7D27-2D49-48CF-9C7A-BF1B29C9104C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8B06F3-955C-48F0-AEEE-F57059DAC8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8B06F3-955C-48F0-AEEE-F57059DAC8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8B06F3-955C-48F0-AEEE-F57059DAC8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8B06F3-955C-48F0-AEEE-F57059DAC8E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

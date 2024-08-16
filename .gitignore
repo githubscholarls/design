@@ -16,3 +16,6 @@
 /StructDesignDemo/obj/*
 *.vsidx
 /Design/.vs/*
+
+/CWDesign/bin/*
+/CWDesign/obj/*
