@@ -34,4 +34,12 @@ Console.WriteLine("Hello, World!");
 //组合模式
 //CWComposite.Main();
 
+//外观模式
+//CWFacade.Main();
+
+//享元模式
+//CWFlyweight.Main();
+
+//代理模式
+CWProxy.Main();
 
