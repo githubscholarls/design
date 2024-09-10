@@ -41,5 +41,11 @@ Console.WriteLine("Hello, World!");
 //CWFlyweight.Main();
 
 //代理模式
-CWProxy.Main();
+//CWProxy.Main();
+
+//模版方法
+//CWTemplateMethod.Main();
+
+
+
 
