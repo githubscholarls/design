@@ -5,46 +5,46 @@ Console.WriteLine("Hello, World!");
 
 
 //单例
-//Console.WriteLine("CWSingleton.Instance.id" + CWSingleton.Instance.id);
+Console.WriteLine("CWSingleton.Instance.id" + CWSingleton.Instance.id);
 
 //简单工厂
-//CWSimpleFactory.Main();
+CWSimpleFactory.Main();
 
 //工厂方法
-//CWFactoryMethod.Main();
+CWFactoryMethod.Main();
 
 //抽象工厂
-//CWAbstractFactory.Main();
+CWAbstractFactory.Main();
 
 //建造者模式
-//CWBuilder.Main();
+CWBuilder.Main();
 
 //原型模式
-//CWPrototype.Main();
+CWPrototype.Main();
 
 //适配器模式
-//CWAdapter.Main();
+CWAdapter.Main();
 
 //桥接模式
-//CWBridge.Main();
+CWBridge.Main();
 
 //装饰器模式
-//CWDecorator.Main();
+CWDecorator.Main();
 
 //组合模式
-//CWComposite.Main();
+CWComposite.Main();
 
 //外观模式
-//CWFacade.Main();
+CWFacade.Main();
 
 //享元模式
-//CWFlyweight.Main();
+CWFlyweight.Main();
 
 //代理模式
-//CWProxy.Main();
+CWProxy.Main();
 
 //模版方法
-//CWTemplateMethod.Main();
+CWTemplateMethod.Main();
 
 
 

@@ -94,7 +94,7 @@ namespace ActionDesignDemo.Mediator
 
     public abstract class Element
     {
-        Mediator mediator;
+        public Mediator mediator;
         public Element(Mediator mediator)
         {
             this.mediator = mediator;
@@ -104,7 +104,6 @@ namespace ActionDesignDemo.Mediator
     }
     class CutMenuItem1: Element
     {
-        Mediator mediator;
         private string cutText;
         public CutMenuItem1(Mediator mediator) : base(mediator)
         {
@@ -126,7 +125,6 @@ namespace ActionDesignDemo.Mediator
     }
     class TextArea1:Element
     {
-        Mediator mediator;
         private string text;
         public TextArea1(Mediator mediator) : base(mediator)
         {
@@ -146,7 +144,6 @@ namespace ActionDesignDemo.Mediator
     }
     class ClipBoard1 : Element
     {
-        Mediator mediator;
         string data = string.Empty;
 
         public ClipBoard1(Mediator mediator) : base(mediator)
@@ -162,7 +159,6 @@ namespace ActionDesignDemo.Mediator
     }
     class ToolBarButton1 : Element
     {
-        Mediator mediator;
         public ToolBarButton1(Mediator mediator) : base(mediator)
         {
         }
